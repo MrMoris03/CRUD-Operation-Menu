@@ -18,3 +18,4 @@ struct Item {
 //Funtion prototypes
 void createItem(vector<Item>& items);
 void readItems(const vector<Item>& items);
+void updateItem(vector<Item>& items);
