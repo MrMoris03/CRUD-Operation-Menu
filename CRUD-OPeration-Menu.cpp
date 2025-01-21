@@ -14,3 +14,6 @@ struct Item {
 	
 	}
 };
+
+//Funtion prototypes
+void createItem(vector<Item>& items);
