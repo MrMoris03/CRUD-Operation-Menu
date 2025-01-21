@@ -19,3 +19,5 @@ struct Item {
 void createItem(vector<Item>& items);
 void readItems(const vector<Item>& items);
 void updateItem(vector<Item>& items);
+void deleteItem(vector<Item>& items);
+
