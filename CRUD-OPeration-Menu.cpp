@@ -33,6 +33,7 @@ int main() {
         cout << "3. Update Item\n";  // Option to update an item
         cout << "4. Delete Item\n";  // Option to delete an item
         cout << "5. Exit\n";         // Option to exit the program
-        
+        cout << "Enter your choice: ";
+        cin >> choice;  	// Get the user's choice
 	}
 }
