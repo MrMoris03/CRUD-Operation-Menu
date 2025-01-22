@@ -21,3 +21,9 @@ void readItems(const vector<Item>& items);
 void updateItem(vector<Item>& items);
 void deleteItem(vector<Item>& items);
 
+int main() {
+	vector<Item> items; // Vector to store items
+	int choice;			// Variable to store user's menu choice
+	
+	
+}
