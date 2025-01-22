@@ -25,5 +25,14 @@ int main() {
 	vector<Item> items; // Vector to store items
 	int choice;			// Variable to store user's menu choice
 	
-	
+	do {
+		//Display Menu options
+		cout << "\n--- CRUD Operations Menu ---\n";
+        cout << "1. Create Item\n";  // Option to create a new item
+        cout << "2. Read Items\n";  // Option to read and display items
+        cout << "3. Update Item\n";  // Option to update an item
+        cout << "4. Delete Item\n";  // Option to delete an item
+        cout << "5. Exit\n";         // Option to exit the program
+        
+	}
 }
