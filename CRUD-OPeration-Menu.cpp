@@ -35,5 +35,10 @@ int main() {
         cout << "5. Exit\n";         // Option to exit the program
         cout << "Enter your choice: ";
         cin >> choice;  	// Get the user's choice
+        
+        // Execute the corresponding action based on the choice
+        switch (choice) {
+        	
+		}
 	}
 }
