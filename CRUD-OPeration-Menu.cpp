@@ -15,7 +15,7 @@ struct Item {
 	}
 };
 
-//Funtion prototypes
+//Function prototypes
 void createItem(vector<Item>& items);
 void readItems(const vector<Item>& items);
 void updateItem(vector<Item>& items);
