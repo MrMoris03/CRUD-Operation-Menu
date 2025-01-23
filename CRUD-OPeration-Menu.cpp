@@ -41,6 +41,9 @@ int main() {
         	case 1:
         		createItem(items);
         		break;
+        	case 2:
+        		readItems(items);
+        		break;
         	
 		}
 	}
