@@ -50,6 +50,9 @@ int main() {
         	case 4:
         		deleteItem(items);
         		break;
+        	case 5:
+        		cout << "Exiting Program.\n";
+        		break;
         	
 		}
 	}
