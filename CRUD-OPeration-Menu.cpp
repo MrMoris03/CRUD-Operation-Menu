@@ -48,7 +48,7 @@ int main() {
         		updateItem(items);	// Call updateItem to modify an existing item
         		break;
         	case 4:
-        		deleteItem(items);
+        		deleteItem(items);	// Call deleteItem to remove an item
         		break;
         	case 5:
         		cout << "Exiting Program.\n";
