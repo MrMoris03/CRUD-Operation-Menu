@@ -42,7 +42,7 @@ int main() {
         		createItem(items);	 // Call createItem to add a new item
         		break;
         	case 2:
-        		readItems(items);
+        		readItems(items);	// Call readItems to display all items
         		break;
         	case 3:
         		updateItem(items);
