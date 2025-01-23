@@ -47,6 +47,9 @@ int main() {
         	case 3:
         		updateItem(items);
         		break;
+        	case 4:
+        		deleteItem(items);
+        		break;
         	
 		}
 	}
