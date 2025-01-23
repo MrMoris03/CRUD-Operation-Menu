@@ -38,6 +38,9 @@ int main() {
         
         // Execute the corresponding action based on the choice
         switch (choice) {
+        	case 1:
+        		createItem(items);
+        		break;
         	
 		}
 	}
