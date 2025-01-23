@@ -45,7 +45,7 @@ int main() {
         		readItems(items);	// Call readItems to display all items
         		break;
         	case 3:
-        		updateItem(items);
+        		updateItem(items);	// Call updateItem to modify an existing item
         		break;
         	case 4:
         		deleteItem(items);
