@@ -39,7 +39,7 @@ int main() {
         // Execute the corresponding action based on the choice
         switch (choice) {
         	case 1:
-        		createItem(items);
+        		createItem(items);	 // Call createItem to add a new item
         		break;
         	case 2:
         		readItems(items);
