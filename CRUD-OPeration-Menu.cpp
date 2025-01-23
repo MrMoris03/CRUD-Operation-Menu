@@ -51,7 +51,7 @@ int main() {
         		deleteItem(items);	// Call deleteItem to remove an item
         		break;
         	case 5:
-        		cout << "Exiting Program.\n";
+        		cout << "Exiting Program.\n";	// Exit message
         		break;
         	
 		}
