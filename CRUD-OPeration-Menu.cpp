@@ -64,5 +64,6 @@ int main() {
 void createItem(vector<Item>& items) {
 	Item newItem;	// Temporary variable to hold the new item
 	
-	
+	cout << "\nEnter Item ID: ";
+	cin >> newItem.id;
 }
