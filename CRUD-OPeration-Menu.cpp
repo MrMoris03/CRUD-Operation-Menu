@@ -62,7 +62,7 @@ int main() {
 
 // Create a new item
 void createItem(vector<Item>& items) {
-	Item newItem;
+	Item newItem;	// Temporary variable to hold the new item
 	
 	
 }
