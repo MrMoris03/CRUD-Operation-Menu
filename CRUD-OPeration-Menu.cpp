@@ -66,4 +66,5 @@ void createItem(vector<Item>& items) {
 	
 	cout << "\nEnter Item ID: ";
 	cin >> newItem.id;	//Input item ID
+	cin.ignore();
 }
