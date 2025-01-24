@@ -53,6 +53,8 @@ int main() {
         	case 5:
         		cout << "Exiting Program.\n";	// Exit message
         		break;
+        	default:
+        		cout <<"Invalid choice. Please try again!.\n";
         	
 		}
 	}
