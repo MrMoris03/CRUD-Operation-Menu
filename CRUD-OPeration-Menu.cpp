@@ -54,7 +54,7 @@ int main() {
         		cout << "Exiting Program.\n";	// Exit message
         		break;
         	default:
-        		cout <<"Invalid choice. Please try again!.\n";
+        		cout <<"Invalid choice. Please try again!.\n";	// Handle invalid input
         	
 		}
 	}
