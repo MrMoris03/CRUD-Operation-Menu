@@ -59,3 +59,8 @@ int main() {
 		}
 	}
 }
+
+
+void createItem(vector<Item>& items) {
+	
+}
