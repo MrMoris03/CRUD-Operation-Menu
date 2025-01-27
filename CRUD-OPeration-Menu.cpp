@@ -71,4 +71,6 @@ void createItem(vector<Item>& items) {
 	getline(cin, newItem.name);	// Input item name
 	cout << "\nEnter Item Price: ";
 	cin >> newItem.price;	//Input Item Price
+	
+	items.push_back(newItem);
 }
