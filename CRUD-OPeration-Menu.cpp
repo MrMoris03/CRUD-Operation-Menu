@@ -69,4 +69,5 @@ void createItem(vector<Item>& items) {
 	cin.ignore();	//Clear input buffer to avoid issues with getline
 	cout << "\nEnter Item Name: ";
 	getline(cin, newItem.name);	// Input item name
+	cout << "\nEnter Item Price: ";
 }
