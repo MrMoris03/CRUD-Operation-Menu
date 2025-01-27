@@ -73,6 +73,6 @@ void createItem(vector<Item>& items) {
 	cin >> newItem.price;	//Input Item Price
 	
 	items.push_back(newItem);	// Add the new item to the vector
-	cout << "Item created successfully!.\n";
+	cout << "Item created successfully!.\n";	// Confirmation message
 	
 }
