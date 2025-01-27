@@ -72,5 +72,5 @@ void createItem(vector<Item>& items) {
 	cout << "\nEnter Item Price: ";
 	cin >> newItem.price;	//Input Item Price
 	
-	items.push_back(newItem);
+	items.push_back(newItem);	// Add the new item to the vector
 }
