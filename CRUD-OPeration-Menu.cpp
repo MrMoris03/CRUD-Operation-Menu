@@ -76,3 +76,8 @@ void createItem(vector<Item>& items) {
 	cout << "Item created successfully!.\n";	// Confirmation message
 	
 }
+
+//Read and display all items
+void readItems(const vector<Items>& items) {
+	
+}
