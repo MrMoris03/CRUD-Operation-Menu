@@ -84,6 +84,7 @@ void readItems(const vector<Items>& items) {
 		
 	} else {
 		for (const auto& item : items) {
+			cout << "\n--- Items List ---\n";
 			
 		}
 	}
