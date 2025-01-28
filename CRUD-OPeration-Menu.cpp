@@ -79,5 +79,7 @@ void createItem(vector<Item>& items) {
 
 //Read and display all items
 void readItems(const vector<Items>& items) {
-	
+	if (items.empty()) {
+		
+	}
 }
