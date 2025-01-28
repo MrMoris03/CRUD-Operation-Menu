@@ -82,5 +82,9 @@ void readItems(const vector<Items>& items) {
 	if (items.empty()) {	// Check if the vector is empty
 		cout << "\nNo item found.\n";	// Message if no items are available
 		
+	} else {
+		for (const auto& item : items) {
+			
+		}
 	}
 }
