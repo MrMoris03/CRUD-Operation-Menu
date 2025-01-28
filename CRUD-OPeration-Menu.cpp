@@ -85,7 +85,7 @@ void readItems(const vector<Items>& items) {
 	} else {
 		for (const auto& item : items) {	// Iterate through each item in the vector	
 			cout << "\n--- Items List ---\n";	//Header for the item lists
-			
+			item.display();
 		}
 	}
 }
