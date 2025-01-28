@@ -83,8 +83,8 @@ void readItems(const vector<Items>& items) {
 		cout << "\nNo item found.\n";	// Message if no items are available
 		
 	} else {
-		for (const auto& item : items) {
-			cout << "\n--- Items List ---\n";
+		for (const auto& item : items) {	
+			cout << "\n--- Items List ---\n";	//Header for the item lists
 			
 		}
 	}
