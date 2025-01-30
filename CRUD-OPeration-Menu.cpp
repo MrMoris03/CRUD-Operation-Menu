@@ -93,5 +93,6 @@ void readItems(const vector<Items>& items) {
 
 //Update an existing item
 void updateItem(vector<Item>& items) {
+	int id;
 	
 }
