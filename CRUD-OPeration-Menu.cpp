@@ -93,7 +93,7 @@ void readItems(const vector<Items>& items) {
 
 //Update an existing item
 void updateItem(vector<Item>& items) {
-	int id;
+	int id;	// Variable to hold the ID of the item to update
 	cout << "\nEnter Item ID to update: ";
 	cin >> id;
 	
