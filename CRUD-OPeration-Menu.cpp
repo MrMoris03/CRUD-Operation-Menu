@@ -95,4 +95,5 @@ void readItems(const vector<Items>& items) {
 void updateItem(vector<Item>& items) {
 	int id;
 	cout << "\nEnter Item ID to update: ";
+	cin >> id;
 }
