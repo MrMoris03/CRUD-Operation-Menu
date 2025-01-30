@@ -98,6 +98,8 @@ void updateItem(vector<Item>& items) {
 	cin >> id;
 	
 	for (auto& item : items) {
-		
+		if (item.id == id) {
+			
+		}
 	}
 }
