@@ -97,7 +97,7 @@ void updateItem(vector<Item>& items) {
 	cout << "\nEnter Item ID to update: ";
 	cin >> id;	// Input the item ID
 	
-	for (auto& item : items) {
+	for (auto& item : items) {	// Iterate through the vector to find the item
 		if (item.id == id) {
 			
 		}
