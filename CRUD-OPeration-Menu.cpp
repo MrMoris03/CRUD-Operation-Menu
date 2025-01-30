@@ -95,7 +95,7 @@ void readItems(const vector<Items>& items) {
 void updateItem(vector<Item>& items) {
 	int id;	// Variable to hold the ID of the item to update
 	cout << "\nEnter Item ID to update: ";
-	cin >> id;
+	cin >> id;	// Input the item ID
 	
 	for (auto& item : items) {
 		if (item.id == id) {
