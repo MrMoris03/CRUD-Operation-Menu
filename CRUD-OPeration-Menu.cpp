@@ -102,7 +102,7 @@ void updateItem(vector<Item>& items) {
 			cin.ignore();
 			cout << "\nEnter new Item Name: ";
 			getline(cin, item.name);
-			
+			cout << "\nEnter new Item Price: ";
 		}
 	}
 }
