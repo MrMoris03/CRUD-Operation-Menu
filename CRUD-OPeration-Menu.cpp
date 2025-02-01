@@ -105,7 +105,7 @@ void updateItem(vector<Item>& items) {
 			cout << "\nEnter new Item Price: ";
 			cin >> item.price;	// Input the new item price
 			cout << "Item created successfully.!";	// Confirmation message
-			return;
+			return;	// Exit the function after updating
 		}
 	}
 }
