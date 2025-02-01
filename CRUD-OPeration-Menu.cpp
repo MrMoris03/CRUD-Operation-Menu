@@ -104,6 +104,7 @@ void updateItem(vector<Item>& items) {
 			getline(cin, item.name);
 			cout << "\nEnter new Item Price: ";
 			cin >> item.price;
+			cout << "Item created successfully.!";
 		}
 	}
 }
