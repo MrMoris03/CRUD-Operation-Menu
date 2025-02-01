@@ -99,7 +99,7 @@ void updateItem(vector<Item>& items) {
 	
 	for (auto& item : items) {	// Iterate through the vector to find the item
 		if (item.id == id) {	// Check if the current item matches the ID
-			cin.ignore();
+			cin.ignore();	// Clear input buffer
 			cout << "\nEnter new Item Name: ";
 			getline(cin, item.name);
 			cout << "\nEnter new Item Price: ";
