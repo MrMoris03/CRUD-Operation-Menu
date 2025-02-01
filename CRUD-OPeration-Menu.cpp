@@ -103,6 +103,7 @@ void updateItem(vector<Item>& items) {
 			cout << "\nEnter new Item Name: ";
 			getline(cin, item.name);
 			cout << "\nEnter new Item Price: ";
+			cin >> item.price;
 		}
 	}
 }
