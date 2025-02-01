@@ -101,6 +101,8 @@ void updateItem(vector<Item>& items) {
 		if (item.id == id) {	// Check if the current item matches the ID
 			cin.ignore();
 			cout << "\nEnter new Item Name: ";
+			getline(cin, item.name);
+			
 		}
 	}
 }
