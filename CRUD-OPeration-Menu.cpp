@@ -114,4 +114,5 @@ void updateItem(vector<Item>& items) {
 void deleteItem(vector<Item>& items) {
 	int id;	// Variable to hold the ID of the item to delete
 	cout << "\nEnter Item ID to delete: ";
+	cin >> id;	// Input the item ID
 }
