@@ -109,3 +109,8 @@ void updateItem(vector<Item>& items) {
 		}
 	}
 }
+
+//Delete an existing item
+void deleteItem(vector<Item>& items) {
+	
+}
